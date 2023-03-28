@@ -10,7 +10,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
 
-  <title>SigmaCodes | {% block title%} {% endblock %}</title>
+  <title>SigmaCodes | Home</title>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 
@@ -63,8 +63,11 @@
       </div>
     </nav>
   </div>
-  {% block body %}
-  {% endblock %}
+  <div style="background-color: brown;">
+    <section>
+      <h1>Inside section</h1>
+    </section>
+  </div>
   <footer class="py-3 my-0">
     <!-- <ul class="nav justify-content-center border-bottom pb-3 mb-3">
               <li class="nav-item"><a href="{% url 'landing-home' %}" class="nav-link px-2 text-muted">Home</a></li>
