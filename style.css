@@ -57,6 +57,17 @@ body {
     font-weight: 700px;
 }
 
+.cover-image img {
+    max-width: 100%;
+    height: auto;
+}
+.section {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #182638;
+    margin: 30px 50px;
+    border-radius: 5px;
+}
 
 footer {
     background-color: #182638;
@@ -68,29 +79,6 @@ footer {
     width: 100%;
 }
 
-.form-input {
-    padding: 20px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    font-size: 26px;
-    font-style:normal;
-    color: #182638;
-    font-weight: 700;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.change {
-    color: red;
-    padding: 20px;
-    font-size: 30px;
-    font-weight: 700px;
-    font-style: italic;
-}
-
 .change:hover {
     color: #182638;
-}
-.plot-container.plotly {
-    fill: red;
-    background-color: red;
 }
