@@ -60,7 +60,6 @@ body {
 .cover-image {
     background-image: url('images02.jpeg');
     background-size: cover;
-    background-repeat: no-repeat;
 }
 .showcase {
     background-color: white;
