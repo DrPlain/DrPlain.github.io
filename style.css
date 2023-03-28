@@ -3,6 +3,7 @@ body {
 }
 .container-fluid {
     padding:0;
+    margin-bottom: 50px;
 }
 .container-fluid .nav-heading {
     background-color: #182638;
