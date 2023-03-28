@@ -58,7 +58,7 @@ body {
 }
 
 .cover-image {
-    background-image: 'images02.jpeg';
+    background-image: url('images02.jpeg');
     max-width: 100%;
     height: auto;
 }
