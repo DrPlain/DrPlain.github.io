@@ -59,8 +59,6 @@ body {
 
 .cover-image {
     background-image: url('images02.jpeg');
-    background-size: cover;
-    height: 50%;
 }
 .showcase {
     background-color: white;
