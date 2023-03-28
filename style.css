@@ -10,7 +10,7 @@ body {
     width: 100%;
 }
 .navbar {
-    display: fixed;
+    display: flex;
     position: top;
     left: 0;
 }
@@ -71,6 +71,7 @@ body {
 footer {
     background-color: #182638;
     min-height: 50px;
+    display: flex;
     position: fixed;
     left: 0;
     bottom: 0;
