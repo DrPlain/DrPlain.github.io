@@ -34,7 +34,8 @@ body {
 }
 .row {
     margin-bottom: 80px;
-    margin-left: 25px;
+    margin-left: 40px;
+    justify-content: center;
 
 }
 .col-md-6 {
