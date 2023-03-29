@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>SigmaCodes</title>
+    <title>SigmaCodes | About</title>
 </head>
 <body>
   <header>
@@ -33,47 +34,71 @@
           </div>
         </nav>
       </div>
-    </header>
-    <div class="container" style="position: relative;">
-      <div class="d-flex align-items-center flex-column bd-highlight mb-3">
-        <div class="p-2 bd-highlight">
-          <h1 style="text-align: center; margin-top: 100px; color: #182638;">
-            Welcome to <span style="font-style: italic; color: chocolate;">SigmaCodes</span>
-          </h1>
-        </div>
-        <div class="p-2 bd-highlight">
-          
-        </div>
-        <div class="p-2 bd-highlight">
-          <form class="d-flex search">
-            <input class="form-control me-2 search" type="search" placeholder="Enter email to subscribe to our newsletter" aria-label="Search">
-            <button class="btn btn-outline-success" id="subscribe" type="submit">Subscribe</button>
-          </form>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <img src="images01.png" width="450" height="250" alt="">
-            <h2>
-              Upload your data<br>
-              in the dashboard<br>
-              for interactive visualization
-            </h2>
-          </div>
-          <div class="col-md-6">
-            <img src="background7.jpg" width="450" height="250" alt="">
-            <h2>
-              Our Services
-            </h2>
-            <h3>
-              <ul>
-                <li>Data analysis</li>
-                <li>Research consultation</li>
-                <li>Interactive data visualization</li>
-              </ul>
-            </h3>
-          </div>
-        </div>
-    </div>
+  </header>
+  <div class="container about" style="margin-bottom: 100px;">
+    <h1 id="heading">
+      SigmaCodes data analysis and visualization services
+    </h1>
+    <p>
+      This project is my portfolio project built as a student of Alx.
+      SigmaCodes is all about helping our clients tell the stories behind
+      their data using interactive visualizations. Our web services offers
+      our users the ability to upload their data in csv or excel format and
+      interactively generates their desired charts. It also ensures that the 
+      appropriate charts are used for visualizations hence enabling those
+      without statistical knowledge to still use our services. <br><br>
+  
+      Our team of experienced researchers are available to offer professional
+      writing services, data analysis and consultation. Other services we offer 
+      include professional review of research papers, data cleaning services, 
+      questionnaire structuring and lots more.
+    </p>
+    <h1>
+      Motivation for this project
+    </h1>
+    <p>
+      My passion for data science prompted me find a way to automate data visualization
+      processes such that those without indepth statistical knowledge can easily and 
+      accurately see the stories behind their data using interactive charts. Also, my love
+      for backend web development informed my choice of using the django framework for
+      this project.  
+    </p>
+    <h1>
+      Technologies, languages and major packages
+    </h1>
+    <p>
+        <ul>
+          <li>Django python framework</li>
+          <li>Html</li>
+          <li>Bootstrap</li>
+          <li>Css</li>
+          <li>Pandas</li>
+          <li>Matplotlib</li>
+          <li>GIT for version control</li>
+          <li>Nginx + Gunicorn for deployment</li>
+  
+        </ul>
+      </p>
+      <h1>
+        AUTHORS
+      </h1>
+      <p>
+        Every part of this project was built by <a href="#">Gideon Obiasor</a> a student
+        of ALX Full Stack Software Engineering program as one of the course requirements.<br>
+  
+      </p>
+      <h1>
+        Links
+      </h1>
+      <p>
+         <ul>
+          <li><a href="https://github.com/DrPlain/portfolio-project_django">Project Github repository</a></li>
+          <li>Email: gideonobiasor@gmail.com</li>
+          <li>LinkedIn profile: <a href="https://www.linkedin.com/in/obiasor-gideon-46116418b">Gideon Obiasor</a></li>
+         </ul>
+      </p>
+      
+  </div>
     <footer class="py-3 my-0">
       <!-- <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item"><a href="{% url 'landing-home' %}" class="nav-link px-2 text-muted">Home</a></li>
