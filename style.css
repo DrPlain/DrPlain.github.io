@@ -7,13 +7,15 @@ body {
     color: chocolate;
 }
 #heading {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .about p{
-    font-size: 25px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .about ul li {
-    font-size: 25px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .dashboard {
     margin-top: 70px;
@@ -34,7 +36,7 @@ body {
 }
 .row {
     margin-bottom: 80px;
-    margin-left: 40px;
+    margin-left: 60px;
     justify-content: center;
 
 }
